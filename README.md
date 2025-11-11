@@ -1,4 +1,7 @@
 # Multi-Scale Driver Interactions on Crop Phenology via Graph-Based Ensembled Machine Learning
+
+#### ⚠ If you get `Unable to render code block` error when opening any of the scripts, refresh the page. It will work
+
 ## Project Overview
 This project investigates how climate, soil, and topographic factors interact across multiple spatial and temporal scales to influence crop phenology. We leverage satellite-derived vegetation indices (MODIS NDVI/EVI) as proxies for crop greenness, together with climate and terrain data, to model the timing of phenological events (e.g. start/end of growing season). Vegetation phenology is known to be primarily controlled by climatic drivers (precipitation, temperature) with terrain modulating local variability. To handle large geospatial datasets, we use Google Earth Engine-a cloud platform for planetary-scale satellite data analysis. Our novel approach builds a graph-based ensemble ML framework combining a Graph Convolutional Network (GCN) to capture non-linear interactions among drivers and an XGBoost model for robust regression.
 
